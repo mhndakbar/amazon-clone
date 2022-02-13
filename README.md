@@ -1,24 +1,15 @@
-# README
+# Amazon Clone 
+> This project is part of Sprints Backend bootcamp.
+> And to practice Mailer
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
+## Tools :-
+- RoR
+- Mailhog
 
-Things you may want to cover:
+## Functions :-
+- Send welcome email to each new user.
+- Send email to all users for each new item.
 
-* Ruby version
-
-* System dependencies
-
-* Configuration
-
-* Database creation
-
-* Database initialization
-
-* How to run the test suite
-
-* Services (job queues, cache servers, search engines, etc.)
-
-* Deployment instructions
-
-* ...
+## Screenshots :-
+![ff](https://github.com/mhndakbar/amazon-clone/blob/Feature/item/Screenshots/sh1.png)
+![ff](https://github.com/mhndakbar/amazon-clone/blob/Feature/item/Screenshots/sh2.png)
