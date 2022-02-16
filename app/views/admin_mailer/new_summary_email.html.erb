@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta content='text/html; charset=UTF-8' http-equiv='Content-Type' />
+  </head>
+  <body>
+    <p>Summary of newly added users and items </p>
+    <p>Summary details<br>
+    --------------------------
+    </p>
+
+    <p>new users</p>
+    <%= @users.each do |u| %>
+     <%= u.name %>
+    <%end%>
+    <br>
+    <p>new items</p>
+    <% @items.each do |i| %>
+     <%= i.title %>
+    <%end%>
+    
+    <p>
+  </body>
+</html>
