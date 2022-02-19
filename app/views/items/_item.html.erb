@@ -9,4 +9,16 @@
     <%= item.description %>
   </p>
 
+  <% if item.cover.present? %> 
+  <%= image_tag item.cover , size:"300x200"%>
+  <%= link_to 'Remove', delete_attachment_item_url(item.cover.id)%>
+<%end%>
+
+<% if item.uploads.present? %>
+<% item.uploads.each do |u|%>
+<%= image_tag(u, size: "200x200") %>
+<%= link_to 'Remove', delete_attachment_item_url(u)%>
+<%end%>
+<%end%>
+
 </div>
