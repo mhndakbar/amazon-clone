@@ -19,8 +19,8 @@
 ## Screenshots :-
 
 ### Mailer
-![ff](https://github.com/mhndakbar/amazon-clone/blob/Feature/item/Screenshots/sh1.png)
-![ff](https://github.com/mhndakbar/amazon-clone/blob/Feature/item/Screenshots/sh2.png)
+<img src="/Screenshots/sh1.png" alt="att" width="200"/>
+<img src="/Screenshots/sh2.png" alt="att" width="200"/>
 
 ### Attachments
 <img src="/Screenshots/att1.png" alt="att" width="200"/>
