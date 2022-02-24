@@ -1,6 +1,5 @@
 # Amazon Clone 
 > This project is part of Sprints Backend bootcamp.
-> And to practice Mailer
 
 ## Tools :-
 - RoR
