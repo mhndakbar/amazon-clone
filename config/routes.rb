@@ -1,4 +1,6 @@
 Rails.application.routes.draw do
+  devise_for :users
+
   resources :items do
     member do
       get :delete_attachment
@@ -10,4 +12,5 @@ Rails.application.routes.draw do
 
   # Defines the root path route ("/")
   # root "articles#index"
+  root to: "application#home"
 end
